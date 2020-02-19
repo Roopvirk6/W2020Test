@@ -30,4 +30,17 @@ func readTextFile(FileName : String)
 }
 readTextFile(FileName: "Data")
 
- 
+func readJSONUserInfo(FileName : String)
+{
+    if let path = Bundle.main.path(forResource: FileName, ofType: "json")
+    {
+    print(path)
+    }
+    
+    
+}
+
+
+
+
+

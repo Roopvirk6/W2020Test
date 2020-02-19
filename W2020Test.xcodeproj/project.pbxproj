@@ -37,6 +37,7 @@
 		9B5397F623FDF3E600B34939 /* W2020Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = W2020Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5397F923FDF3E600B34939 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B53980123FDF4D500B34939 /* Data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Data.txt; sourceTree = "<group>"; };
+		9B53980523FDFA5200B34939 /* SingleUser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 			children = (
 				9B5397F923FDF3E600B34939 /* main.swift */,
 				9B53980123FDF4D500B34939 /* Data.txt */,
+				9B53980523FDFA5200B34939 /* SingleUser.json */,
 			);
 			path = W2020Test;
 			sourceTree = "<group>";
