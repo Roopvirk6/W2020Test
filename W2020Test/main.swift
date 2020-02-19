@@ -15,8 +15,16 @@ func readTextFile(FileName : String)
         
     
     print(path)
-        let str = try! String(contentsOfFile: path)
-        print(str)
+        let str = try? String(contentsOfFile: path)
+        if let s = str
+        {
+            print(s)
+        }
+        else
+        {
+            print("error while reading file")
+        }
+        
     }
     
 }
