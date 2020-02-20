@@ -72,10 +72,38 @@ func readJSONUserInfo(fileName : String)
     if let userDictionary = json as? [String : Any]
     {
         print(userDictionary)
+        let id = userDictionary["id"] ?? "no id found"
+        print(id)
+        if let addressDictionary = userDictionary["address"] as? [String : Any]
+        {
+            print(addressDictionary["city"]!)
+        }
     }
     
 }
 readJSONUserInfo(fileName: "SingleUser")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
