@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9B5397FA23FDF3E600B34939 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5397F923FDF3E600B34939 /* main.swift */; };
 		9B53980323FDF6FC00B34939 /* Data.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B53980123FDF4D500B34939 /* Data.txt */; };
+		9B53980A23FE02E200B34939 /* SingleUser.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B53980923FE02BB00B34939 /* SingleUser.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,13 +32,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9B53980623FDFD2600B34939 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B53980A23FE02E200B34939 /* SingleUser.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		9B5397F623FDF3E600B34939 /* W2020Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = W2020Test; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B5397F923FDF3E600B34939 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9B53980123FDF4D500B34939 /* Data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Data.txt; sourceTree = "<group>"; };
-		9B53980523FDFA5200B34939 /* SingleUser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUser.json; sourceTree = "<group>"; };
+		9B53980923FE02BB00B34939 /* SingleUser.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SingleUser.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,7 +83,7 @@
 			children = (
 				9B5397F923FDF3E600B34939 /* main.swift */,
 				9B53980123FDF4D500B34939 /* Data.txt */,
-				9B53980523FDFA5200B34939 /* SingleUser.json */,
+				9B53980923FE02BB00B34939 /* SingleUser.json */,
 			);
 			path = W2020Test;
 			sourceTree = "<group>";
@@ -88,6 +99,7 @@
 				9B5397F323FDF3E600B34939 /* Frameworks */,
 				9B5397F423FDF3E600B34939 /* CopyFiles */,
 				9B53980223FDF6EF00B34939 /* CopyFiles */,
+				9B53980623FDFD2600B34939 /* CopyFiles */,
 			);
 			buildRules = (
 			);
